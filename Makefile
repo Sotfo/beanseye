@@ -8,10 +8,10 @@ dep:
 	go install github.com/douban/goyaml
 
 install:dep
-	go install proxy
+	go install beanseye 
 
 test:
 	go test memcache
 
 debug:dep
-	go install proxy
+	go install beanseye
